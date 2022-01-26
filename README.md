@@ -1,2 +1,2 @@
-# capstone-template
-BSU CS481 Capstone project template
+# GHK Simulator
+BSU CS481 Capstone project
