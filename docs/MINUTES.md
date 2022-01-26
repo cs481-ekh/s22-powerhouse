@@ -1,14 +1,15 @@
 # Minutes
 
-1/26/2022 10:30am - 11:15am
-First Proper Meeting 
+## 1/26/2022 10:30am - 11:15am
+### First Proper Meeting 
 
 - Agreed that GNU General Public License was a good way to keep the project source open through any iterations. 
 - Worked on Team Contract. Details are in the document on the Drive. 
 - Finished CONTRIBUTORS file in Github
 
 
-Sponsor Meeting Minutes 1/25/2022 2:30pm - 3:00pm 
+## 1/25/2022 2:30pm - 3:00pm 
+### Sponsor Meeting Minutes
 Questions asked:
 What is priority with the app in terms of animations?
 If you are already using an application for this, what is that app missing or what do you want the new app to do that the old one can’t?
