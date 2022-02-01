@@ -2,6 +2,7 @@
 
 ## 1/26/2022 10:30am - 11:15am
 ### First Proper Meeting 
+### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
 
 - Agreed that GNU General Public License was a good way to keep the project source open through any iterations. 
 - Worked on Team Contract. Details are in the document on the Drive. 
@@ -10,6 +11,7 @@
 
 ## 1/25/2022 2:30pm - 3:00pm 
 ### Sponsor Meeting Minutes
+### Attendees: Dr. Fologea, Taylor Brooks, Jost Leavell, & Dawson Biersdorff
 #### Questions asked:
 - What is priority with the app in terms of animations?
 - If you are already using an application for this, what is that app missing or what do you want the new app to do that the old one can’t?
