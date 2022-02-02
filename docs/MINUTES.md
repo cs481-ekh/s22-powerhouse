@@ -20,7 +20,7 @@
 - Taylor: Section 3 done before due date. Configure test script for CI.
 
 ## 1/26/2022 10:30am - 11:15am
-### First Proper Meeting 
+### First Proper Meeting - Week 3
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
 ##### Notes
 - Agreed that GNU General Public License was a good way to keep the project source open through any iterations. 
