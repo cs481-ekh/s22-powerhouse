@@ -8,7 +8,7 @@
 - Discussed the build and test scripts for CI.
 -- Decided for now that linting in the build step and JS units tests in the test script. 
 - Most likely will use Bootstrap CSS framework.
-- We have found many JS grahping libraries that will work great. 
+- We have found many JS graphing libraries that will work great. 
 -- We also found a nice physics if we end up having any animation. 
 - Discussed UX design. 
 -- Think having the graph at the top and center of the app will make it more appealing. Maybe have tabs on the left for other equations in the future. 
