@@ -1,5 +1,24 @@
 # Minutes
 
+## 2/2/2022 10:45am - 11:45am
+### Week 4 Meeting 
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Worked on the Project Plan and divided the work for the week.
+- Discussed the build and test scripts for CI.
+-- Decided for now that linting in the build step and JS units tests in the test script. 
+- Most likely will use Bootstrap CSS framework.
+- We have found many JS grahping libraries that will work great. 
+-- We also found a nice physics if we end up having any animation. 
+- Discussed UX design. 
+-- Think having the graph at the top and center of the app will make it more appealing. Maybe have tabs on the left for other equations in the future. 
+##### Questions for Dr Fologea
+- Does the graph still need the lines on the graph representing concentrations of each of the molecules?
+##### Action Items
+- Jost: Sections 1 and 2 done before due date. Setup github with yaml and CI.
+- Dawson: Sections 4 and 5 done before due date. Configure build script for CI.
+- Taylor: Section 3 done before due date. Configure test script for CI.
+
 ## 1/26/2022 10:30am - 11:15am
 ### First Proper Meeting 
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
@@ -10,6 +29,7 @@
 ##### Action Items
 - All members work on Project Plan. 
 - All memebers research ideas for build and test CI.
+
 ## 1/25/2022 2:30pm - 3:00pm 
 ### Sponsor Meeting Minutes
 #### Attendees: Dr. Fologea, Taylor Brooks, Jost Leavell, & Dawson Biersdorff
