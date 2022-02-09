@@ -1,5 +1,22 @@
 # Minutes
 
+## 2/9/2022 10:45am - 11:45am
+### Sprint 0 Planning - Week 5
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Project plan comments were reviewed and the necessary changes were made. 
+- Plan was sent over to Dr. Fologea along with any new questions for him. 
+- Sprint 0 Planning was completed by making tasks/user stories in Github.
+- Will use original program to ensure our new program is working properly. 
+-- We know the current programs functionality is good.
+##### Sprint 0 Goal
+- By the end of this sprint we will be able to have a basic web application setup so we can seamlessly begin functionality work in sprint 1. We will also have our continuous integration, including build and test scripts, written by the end of it. 
+##### Action Items
+- Everyone: Have a basic html, javascript, and css project setup posted to Github to start work on in Sprint 1.
+- Jost: Sections Setup github with yaml and CI. 
+- Dawson: Sections Configure build script for CI.
+- Taylor: Section Configure test script for CI.
+
 ## 2/2/2022 10:45am - 11:45am
 ### Week 4 Meeting 
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
