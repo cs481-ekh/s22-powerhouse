@@ -22,3 +22,8 @@ not be absolutely neccesary, it will be simplest)
 Currently if nothing pops up, then you are good to go. If an error occurs,
 then it must be fixed to finish the lint. 
 
+5. To test your code with the unit tests, 
+```
+./test.sh
+```
+
