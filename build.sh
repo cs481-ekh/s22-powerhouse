@@ -4,9 +4,11 @@
 curl -L https://www.jslint.com/jslint.mjs > jslint.mjs
 node jslint.mjs GHKSimulator/scripts/main.js
 if [ $? -eq 0 ]; then
-    return 0
+    echo "Linter Passed"
+    exit 0
 else
-    return -1
+    echo "Linter Failed"
+    exit -1
 fi
 
 #Build
