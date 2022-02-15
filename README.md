@@ -1,3 +1,4 @@
+[![CI](https://github.com/cs481-ekh/s22-powerhouse/actions/workflows/ci.yml/badge.svg)](https://github.com/cs481-ekh/s22-powerhouse/actions/workflows/ci.yml)
 ## GHK Simulator
 BSU CS481 Capstone project
 
