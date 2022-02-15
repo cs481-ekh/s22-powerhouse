@@ -3,7 +3,6 @@
 #Create the Linter
 sudo apt install nodejs
 npm install
-npm install --save-dev jest
 curl -L https://www.jslint.com/jslint.mjs > jslint.mjs
 node jslint.mjs GHKSimulator/scripts/main.js
 if [ $? -eq 0 ]; then
