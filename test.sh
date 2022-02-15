@@ -1,4 +1,5 @@
 #!/bin/bash
+npm install --save-dev jest
 npm test
 if [ $? -eq 0 ]; then
     echo "Tests Passed"
