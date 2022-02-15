@@ -1,3 +1,4 @@
 .DS_Store
 GHKSimulator/.DS_Store
 node_modules/*
+jslint.mjs
