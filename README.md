@@ -27,4 +27,3 @@ then it must be fixed to finish the lint.
 ```
 ./test.sh
 ```
-
