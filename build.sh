@@ -2,10 +2,10 @@
 
 #Create the Linter
 sudo apt install nodejs
-sudo npm install
-sudo npm install --save-dev jest
-sudo npm i --save-dev eslint
-npx eslint ./GHKSimulator/scripts/main.js
+npm install
+npm install --save-dev jest
+curl -L https://www.jslint.com/jslint.mjs > jslint.mjs
+node jslint.mjs GHKSimulator/scripts/main.js
 if [ $? -eq 0 ]; then
     echo "Linter Passed"
     exit 0
