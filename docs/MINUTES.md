@@ -1,5 +1,22 @@
 # Minutes
 
+## 2/16/2022 10:30am - 11:00am
+### Sprint 1 Planning - Week 6
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Created the Sprint 1 project board.
+- Jost will be this sprint's scribe, Taylor is the scrum master, and Dawson is the project manager 
+- Talked about how we will implement the equation. Handlers will set global variables that influence the result of the equation. A get_GHK function will return 
+the result. 
+- Plan to reconvene in a meeting next week and see where we need to go from there. 
+##### Sprint 1 Goal
+- By the end of this sprint we will be able to have the very basic functionality of our project done. This will include the GHK equation being fully implemented and 
+all of the HTML input boxes influencing the equation results.   
+##### Action Items
+- Jost: Create output window for the equation, and start on the graph
+- Dawson: Create the function for the equation
+- Taylor: Create event handlers for the HTML inputs 
+
 ## 2/9/2022 10:45am - 11:45am
 ### Sprint 0 Planning - Week 5
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
