@@ -1,7 +1,7 @@
 const sum = require('./main.js');
 // TODO: these will be filled with values for the equation
 test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+  expect(getAns(1, 2)).toBe(3);
 });
 
 test('adds 2 + 2 to equal 4', () => {
