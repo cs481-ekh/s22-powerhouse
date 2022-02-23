@@ -1,4 +1,4 @@
-const sum = require('./main.js');
+const sum = require('./index.js');
 // TODO: these will be filled with values for the equation
 test('adds 1 + 2 to equal 3', () => {
   expect(getAns(1, 2)).toBe(3);
