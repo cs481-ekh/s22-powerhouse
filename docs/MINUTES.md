@@ -1,5 +1,21 @@
 # Minutes
 
+## 2/23/2022 10:30am - 11:00am
+### Sprint 1 Check-in - Week 7
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Updated eachother on progress 
+- Created more tasks based on what we've found that we need
+- Updated action items 
+##### Sprint 1 Goal
+- By the end of this sprint we will be able to have the very basic functionality of our project done. This will include the GHK equation being fully implemented and 
+all of the HTML input boxes influencing the equation results.   
+##### Action Items
+- Jost: Create output window for the equation, start on the graph, write unit tests
+- Dawson: Create the function for the equation, and connect it to the output 
+- Taylor: Create event handlers for the HTML inputs. Add sliders for the inputs
+
+
 ## 2/16/2022 10:30am - 11:00am
 ### Sprint 1 Planning - Week 6
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
