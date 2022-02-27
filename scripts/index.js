@@ -42,8 +42,9 @@ function myFunc() {
     document.getElementById("output").innerHTML = ret;
 }
 
-
+// JQuery to create sliders and link to specific input boxes
 $(document).ready(function(){
+    // links permeability inputs
     for (let i = 1; i <= 3; i++) {
         $("#permeabilityTextbox" + i).change(function () {
             var value = this.value
@@ -61,6 +62,7 @@ $(document).ready(function(){
             }
         });
     }
+    // links concentration inputs
     for (let i = 1; i <= 6; i++) {
         $("#concentrationTextbox" + i).change(function () {
             var value = this.value

@@ -16,77 +16,80 @@
       <h1>INSERT PROGRAM NAME HERE</h1>
       <button onclick="myFunc()">try it</button>
       <h2>Output: <span id="output" style="font-size: larger; color: blue;">0.00</span></h2>
-	
+
+    <!-- Potassium Input Section -->
     <div class="potassium-panel" style="border: 5px solid green;">
       <h3 class="potassium-header">Potassium [K<sup>+</sup>]</h3>
       <form action ="">
         <p>
           <label for="potassiumPermeability">PK<sup>+</sup></label>
-          <div id="permeabilitySlider1"></div>
-          <input type="number" id="permeabilityTextbox1">
+          <section id="permeabilitySlider1"></section>
+          <input type="number" id="permeabilityTextbox1" value="5000">
         </p>
         <p>
           <label for="potassium2">[K<sup>+</sup>]<sub>0</sub></label>
-          <div id="concentrationSlider1"></div>
-          <input type="number" id="concentrationTextbox1">
+          <section id="concentrationSlider1"></section>
+          <input type="number" id="concentrationTextbox1" value="100">
         </p>
         <p>
           <label for="potassium3">[K<sup>+</sup>]<sub>i</sub></label>
-          <div id="concentrationSlider2"></div>
-          <input type="number" id="concentrationTextbox2">
+          <section id="concentrationSlider2"></section>
+          <input type="number" id="concentrationTextbox2" value="100">
         </p>
       </form>
     </div>
 
+    <!-- Sodium Input Section -->
     <div class="sodium-panel" style="border: 5px solid blue;">
       <h3 class="sodium-header">Sodium [Na<sup>+</sup>]</h3>
         <form action ="">
           <p>
             <label for="sodiumPermeability">PNa<sup>+</sup></label>
-            <div id="permeabilitySlider2"></div>
-            <input type="text" id="permeabilityTextbox2">
+            <section id="permeabilitySlider2"></section>
+            <input type="number" id="permeabilityTextbox2" value="5000">
           </p>
           <p>
             <label for="sodium2">[Na<sup>+</sup>]<sub>0</sub></label>
-            <div id="concentrationSlider3"></div>
-            <input type="text" id="concentrationTextbox3">
+            <section id="concentrationSlider3"></section>
+            <input type="number" id="concentrationTextbox3" value="100">
           </p>
           <p>
             <label for="sodium3">[Na<sup>+</sup>]<sub>i</sub></label>
-            <div id="concentrationSlider4"></div>
-            <input type="text" id="concentrationTextbox4">
+            <section id="concentrationSlider4"></section>
+            <input type="number" id="concentrationTextbox4" value="100">
           </p>
         </form>
     </div>
 
+    <!-- Chloride Input Section -->
     <div class="chloride-panel" style="border: 5px solid yellow;">
       <h3 class="chloride-header">Chloride [Cl<sup>-</sup>]</h3>
       <form action ="">
         <p>
           <label for="chloridePermeability">PCl<sup>-</sup></label>
-          <div id="permeabilitySlider3"></div>
-          <input type="text" id="permeabilityTextbox3">
+          <section id="permeabilitySlider3"></section>
+          <input type="number" id="permeabilityTextbox3" value="5000">
         </p>
         <p>
           <label for="chloride2">[Cl<sup>-</sup>]<sub>0</sub></label>
-          <div id="concentrationSlider5"></div>
-          <input type="text" id="concentrationTextbox5">
+          <section id="concentrationSlider5"></section>
+          <input type="number" id="concentrationTextbox5" value="100">
         </p>
         <p>
           <label for="chloride3">[Cl<sup>-</sup>]<sub>i</sub></label>
-          <div id="concentrationSlider6"></div>
-          <input type="text" id="concentrationTextbox6">
+          <section id="concentrationSlider6"></section>
+          <input type="number" id="concentrationTextbox6" value="100">
         </p>
       </form>
-
     </div>
 
+    <!-- Temperature Input Section -->
     <div class="temperature-panel">
       <h3 class="temperature-header">Temperature</h3>
       <form action ="">
         <p>
           <label for="temperature">&#176C</label>
-          <input type="text" id="temperature">
+          <input type="number" id="temperature" value="20">
         </p>
       </form>
     </div>
