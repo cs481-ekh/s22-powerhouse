@@ -5,26 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GHK Simulator</title>
-    <link rel="stylesheet" href="./styles/jquery-ui.css" />
+    <link rel="stylesheet" href="./styles/jquery-ui.1.10.1.css" />
     <script src="./scripts/jquery-1.11.1.min.js"></script>
     <script src="./scripts/jquery-ui-1.10.1.min.js"></script>
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./scripts/index.js"></script>
+    
   </head>
   <body>
 
-      <h1 style="text-align:center">INSERT PROGRAM NAME HERE</h1>
-      <div style="text-align:center">
-        <button style="text-align:center" onclick="myFunc()">try it</button>
-      </div>
-      <h2 style="text-align:center">Output: <span id="output" style="font-size: larger; color: purple;">0.00</span></h2>
+      <h1 style="text-align:center">GHK Equation Simulation</h1>
+      <h2 style="text-align:center">Output: <span id="output" style="font-size: larger; color: blue;"></span><span> mV</span></h2>
 
-    <div style="text-align:center">
-      PLOT CAN GO HERE
-    </div>
+    <div id="chart" style="text-align:center"></div>
 
     <table style="width:100%">
-      <td>
+      <td style="width:30%">
         <!-- Potassium Input Section -->
         <div class="potassium-panel" style="border: 5px solid green;">
           <h3 class="potassium-header">Potassium [K<sup>+</sup>]</h3>
@@ -32,7 +28,7 @@
             <p>
               <label for="potassiumPermeability">PK<sup>+</sup></label>
               <section style="margin: 2%;" id="permeabilitySlider1"></section>
-              <input style="width:10%" type="number" id="permeabilityTextbox1" value="5000">
+              <input type="number" id="permeabilityTextbox1" value="5000">
             </p>
             <p>
               <label for="potassium2">[K<sup>+</sup>]<sub>0</sub></label>
@@ -47,9 +43,9 @@
           </form>
         </div>
       </td>
-      <td>
+      <td style="width:30%">
         <!-- Sodium Input Section -->
-        <div class="sodium-panel" style="border: 5px solid blue;">
+        <div class="sodium-panel" style="border: 5px solid purple;">
           <h3 class="sodium-header">Sodium [Na<sup>+</sup>]</h3>
             <form action ="">
               <p>
@@ -70,7 +66,7 @@
             </form>
         </div>
       </td>
-      <td>
+      <td style="width:30%">
         <!-- Chloride Input Section -->
         <div class="chloride-panel" style="border: 5px solid yellow;">
           <h3 class="chloride-header">Chloride [Cl<sup>-</sup>]</h3>
@@ -93,28 +89,27 @@
           </form>
         </div>
       </td>
+      <td style="width:10%"> 
+        <!-- Temperature Input Section -->
+        <div text-align:class="temperature-panel" style="border: 5px solid red;">
+          <h3 class="temperature-header">Temperature</h3>
+          <table style="margin-left:25%">
+            <tr>
+              <td>
+                <section style="height:250px;" id="temperatureSlider"></section>
+              </td>
+              <td>
+                <form action ="">
+                  <p>
+                    <input style="display:inline;" type="number" id="temperatureTextbox" value="20">
+                    <label for="temperature">&#176C</label>
+                  </p>
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
     </table>
-
-    <!-- Temperature Input Section -->
-    <div text-align:class="temperature-panel" style="border: 5px solid red; width:15%; display: block;margin-left: auto;margin-right: auto; padding-bottom:1%">
-      <h3 class="temperature-header">Temperature</h3>
-      <table style="margin-left:25%">
-        <tr>
-          <td>
-            <section style="height:250px;" id="temperatureSlider"></section>
-          </td>
-          <td>
-            <form action ="">
-              <p>
-                <input style="width:25%; display:inline" type="number" id="temperatureTextbox" value="20">
-                <label for="temperature">&#176C</label>
-              </p>
-            </form>
-          </td>
-        </tr>
-        
-      </table>
-    </div>
-
   </body>
 </html>

@@ -13,7 +13,7 @@ function converToKelvin(celcius) {
 }
 
 //Imports values from html form and uses them to calculate Goldman-Hodgkin-Katz solution
-function myFunc() {
+function calcVoltage() {
 
     //Constants for the equation
     let r = 8.3145;
@@ -42,9 +42,10 @@ function myFunc() {
 
     //Assigns it to our output value in html file
     document.getElementById("output").innerHTML = ret;
+    return ret;
 }
 
-// JQuery to create sliders and link to specific input boxes
+// Only run when document is ready and all values are loaded
 $(document).ready(function(){
     // links permeability inputs
     for (let i = 1; i <= 3; i++) {
@@ -100,10 +101,3 @@ $(document).ready(function(){
         }
     });
   });
-
-
-/*
-Use the textContent property to change the text of a 
-span element, e.g. span.textContent = 'Replacement text'. 
-The textContent property will set the text of the span to 
-the provided string, replacing any of the existing content.*/
