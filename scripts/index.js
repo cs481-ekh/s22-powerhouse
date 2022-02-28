@@ -2,7 +2,9 @@
 function sum(a, b) {
     return a + b;
 }
-// module.exports = sum;
+if (typeof window === 'undefined') {
+    module.exports = sum;
+}
 
 //Converts give celcius temperature to Kelvin
 function converToKelvin(celcius) {
