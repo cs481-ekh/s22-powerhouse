@@ -13,85 +13,107 @@
   </head>
   <body>
 
-      <h1>INSERT PROGRAM NAME HERE</h1>
-      <button onclick="myFunc()">try it</button>
-      <h2>Output: <span id="output" style="font-size: larger; color: blue;">0.00</span></h2>
+      <h1 style="text-align:center">INSERT PROGRAM NAME HERE</h1>
+      <div style="text-align:center">
+        <button style="text-align:center" onclick="myFunc()">try it</button>
+      </div>
+      <h2 style="text-align:center">Output: <span id="output" style="font-size: larger; color: purple;">0.00</span></h2>
 
-    <!-- Potassium Input Section -->
-    <div class="potassium-panel" style="border: 5px solid green;">
-      <h3 class="potassium-header">Potassium [K<sup>+</sup>]</h3>
-      <form action ="">
-        <p>
-          <label for="potassiumPermeability">PK<sup>+</sup></label>
-          <section id="permeabilitySlider1"></section>
-          <input type="number" id="permeabilityTextbox1" value="5000">
-        </p>
-        <p>
-          <label for="potassium2">[K<sup>+</sup>]<sub>0</sub></label>
-          <section id="concentrationSlider1"></section>
-          <input type="number" id="concentrationTextbox1" value="100">
-        </p>
-        <p>
-          <label for="potassium3">[K<sup>+</sup>]<sub>i</sub></label>
-          <section id="concentrationSlider2"></section>
-          <input type="number" id="concentrationTextbox2" value="100">
-        </p>
-      </form>
+    <div style="text-align:center">
+      PLOT CAN GO HERE
     </div>
 
-    <!-- Sodium Input Section -->
-    <div class="sodium-panel" style="border: 5px solid blue;">
-      <h3 class="sodium-header">Sodium [Na<sup>+</sup>]</h3>
-        <form action ="">
-          <p>
-            <label for="sodiumPermeability">PNa<sup>+</sup></label>
-            <section id="permeabilitySlider2"></section>
-            <input type="number" id="permeabilityTextbox2" value="5000">
-          </p>
-          <p>
-            <label for="sodium2">[Na<sup>+</sup>]<sub>0</sub></label>
-            <section id="concentrationSlider3"></section>
-            <input type="number" id="concentrationTextbox3" value="100">
-          </p>
-          <p>
-            <label for="sodium3">[Na<sup>+</sup>]<sub>i</sub></label>
-            <section id="concentrationSlider4"></section>
-            <input type="number" id="concentrationTextbox4" value="100">
-          </p>
-        </form>
-    </div>
-
-    <!-- Chloride Input Section -->
-    <div class="chloride-panel" style="border: 5px solid yellow;">
-      <h3 class="chloride-header">Chloride [Cl<sup>-</sup>]</h3>
-      <form action ="">
-        <p>
-          <label for="chloridePermeability">PCl<sup>-</sup></label>
-          <section id="permeabilitySlider3"></section>
-          <input type="number" id="permeabilityTextbox3" value="5000">
-        </p>
-        <p>
-          <label for="chloride2">[Cl<sup>-</sup>]<sub>0</sub></label>
-          <section id="concentrationSlider5"></section>
-          <input type="number" id="concentrationTextbox5" value="100">
-        </p>
-        <p>
-          <label for="chloride3">[Cl<sup>-</sup>]<sub>i</sub></label>
-          <section id="concentrationSlider6"></section>
-          <input type="number" id="concentrationTextbox6" value="100">
-        </p>
-      </form>
-    </div>
+    <table style="width:100%">
+      <td>
+        <!-- Potassium Input Section -->
+        <div class="potassium-panel" style="border: 5px solid green;">
+          <h3 class="potassium-header">Potassium [K<sup>+</sup>]</h3>
+          <form action ="">
+            <p>
+              <label for="potassiumPermeability">PK<sup>+</sup></label>
+              <section style="margin: 2%;" id="permeabilitySlider1"></section>
+              <input style="width:10%" type="number" id="permeabilityTextbox1" value="5000">
+            </p>
+            <p>
+              <label for="potassium2">[K<sup>+</sup>]<sub>0</sub></label>
+              <section style="margin: 2%;" id="concentrationSlider1"></section>
+              <input type="number" id="concentrationTextbox1" value="100">
+            </p>
+            <p>
+              <label for="potassium3">[K<sup>+</sup>]<sub>i</sub></label>
+              <section style="margin: 2%;" id="concentrationSlider2"></section>
+              <input type="number" id="concentrationTextbox2" value="100">
+            </p>
+          </form>
+        </div>
+      </td>
+      <td>
+        <!-- Sodium Input Section -->
+        <div class="sodium-panel" style="border: 5px solid blue;">
+          <h3 class="sodium-header">Sodium [Na<sup>+</sup>]</h3>
+            <form action ="">
+              <p>
+                <label for="sodiumPermeability">PNa<sup>+</sup></label>
+                <section style="margin: 2%;" id="permeabilitySlider2"></section>
+                <input type="number" id="permeabilityTextbox2" value="5000">
+              </p>
+              <p>
+                <label for="sodium2">[Na<sup>+</sup>]<sub>0</sub></label>
+                <section style="margin: 2%;" id="concentrationSlider3"></section>
+                <input type="number" id="concentrationTextbox3" value="100">
+              </p>
+              <p>
+                <label for="sodium3">[Na<sup>+</sup>]<sub>i</sub></label>
+                <section style="margin: 2%;" id="concentrationSlider4"></section>
+                <input type="number" id="concentrationTextbox4" value="100">
+              </p>
+            </form>
+        </div>
+      </td>
+      <td>
+        <!-- Chloride Input Section -->
+        <div class="chloride-panel" style="border: 5px solid yellow;">
+          <h3 class="chloride-header">Chloride [Cl<sup>-</sup>]</h3>
+          <form action ="">
+            <p>
+              <label for="chloridePermeability">PCl<sup>-</sup></label>
+              <section style="margin: 2%;" id="permeabilitySlider3"></section>
+              <input type="number" id="permeabilityTextbox3" value="5000">
+            </p>
+            <p>
+              <label for="chloride2">[Cl<sup>-</sup>]<sub>0</sub></label>
+              <section style="margin: 2%;" id="concentrationSlider5"></section>
+              <input type="number" id="concentrationTextbox5" value="100">
+            </p>
+            <p>
+              <label for="chloride3">[Cl<sup>-</sup>]<sub>i</sub></label>
+              <section style="margin: 2%;" id="concentrationSlider6"></section>
+              <input type="number" id="concentrationTextbox6" value="100">
+            </p>
+          </form>
+        </div>
+      </td>
+    </table>
 
     <!-- Temperature Input Section -->
-    <div class="temperature-panel">
+    <div text-align:class="temperature-panel" style="border: 5px solid red; width:15%; display: block;margin-left: auto;margin-right: auto; padding-bottom:1%">
       <h3 class="temperature-header">Temperature</h3>
-      <form action ="">
-        <p>
-          <label for="temperature">&#176C</label>
-          <input type="number" id="temperature" value="20">
-        </p>
-      </form>
+      <table style="margin-left:25%">
+        <tr>
+          <td>
+            <section style="height:250px;" id="temperatureSlider"></section>
+          </td>
+          <td>
+            <form action ="">
+              <p>
+                <input style="width:25%; display:inline" type="number" id="temperatureTextbox" value="20">
+                <label for="temperature">&#176C</label>
+              </p>
+            </form>
+          </td>
+        </tr>
+        
+      </table>
     </div>
 
   </body>

@@ -27,7 +27,7 @@ function myFunc() {
     let chloridePerm = parseInt(document.getElementById("permeabilityTextbox3").value);
     let chloride1 = parseInt(document.getElementById("concentrationTextbox5").value);
     let chloride2 = parseInt(document.getElementById("concentrationTextbox6").value);
-    let temp = parseInt(document.getElementById("temperature").value);
+    let temp = parseInt(document.getElementById("temperatureTextbox").value);
     let kelvinTemp = converToKelvin(temp);
 
     //Calculates value using our Goldman equation
@@ -36,7 +36,7 @@ function myFunc() {
     let firstPart = (-(r*kelvinTemp) / f);
     let secondPart = Math.log(numerator / denominator);
     let num = firstPart * secondPart * 1000;
-    let ret = num.toFixed(1);
+    let ret = num.toFixed(2);
 
     //Assigns it to our output value in html file
     document.getElementById("output").innerHTML = ret;
@@ -80,6 +80,23 @@ $(document).ready(function(){
             }
         });
     }
+    // temperature slider
+    $("#temperatureTextbox").change(function () {
+        var value = this.value
+        $("#temperatureSlider").slider("value", parseInt(value));
+    });
+    
+    $("#temperatureSlider").slider({
+        orientation: "vertical",
+        range: "min",
+        value: 100,
+        step: 1,
+        min: 0,
+        max: 200,
+        slide: function(event, ui) {
+            $("#temperatureTextbox").val(ui.value);
+        }
+    });
   });
 
 

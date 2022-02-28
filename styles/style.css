@@ -1,4 +1,39 @@
-
-div {
-    width:50%;
+input {
+    width:10%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#permeabilitySlider1 .ui-slider-range { background: green; }
+#permeabilitySlider1 .ui-slider-handle { border-color: black; background: green; }
+#concentrationSlider1 .ui-slider-range { background: green; }
+#concentrationSlider1 .ui-slider-handle { border-color: black; background: green; }
+#concentrationSlider2 .ui-slider-range { background: green; }
+#concentrationSlider2 .ui-slider-handle { border-color: black; background: green; }
+
+#permeabilitySlider2 .ui-slider-range { background: blue; }
+#permeabilitySlider2 .ui-slider-handle { border-color: black; background: blue; }
+#concentrationSlider3 .ui-slider-range { background: blue; }
+#concentrationSlider3 .ui-slider-handle { border-color: black; background: blue; }
+#concentrationSlider4 .ui-slider-range { background: blue; }
+#concentrationSlider4 .ui-slider-handle { border-color: black; background: blue; }
+
+#permeabilitySlider3 .ui-slider-range { background: yellow; }
+#permeabilitySlider3 .ui-slider-handle { border-color: black; background: yellow; }
+#concentrationSlider5 .ui-slider-range { background: yellow; }
+#concentrationSlider5 .ui-slider-handle { border-color: black; background: yellow; }
+#concentrationSlider6 .ui-slider-range { background: yellow; }
+#concentrationSlider6 .ui-slider-handle { border-color: black; background: yellow; }
+
+#temperatureSlider .ui-slider-range { background: red;}
+#temperatureSlider .ui-slider-handle { border-color: black; background: red; }
