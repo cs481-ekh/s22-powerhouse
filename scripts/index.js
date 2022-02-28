@@ -100,4 +100,13 @@ $(document).ready(function(){
             $("#temperatureTextbox").val(ui.value);
         }
     });
+    // create plot
+    Plotly.newPlot('chart', [{
+        y:[calcVoltage()],
+        type:'line'
+    }]);
+    
+    setInterval(function(){
+        Plotly.extendTraces('chart',{y:[[calcVoltage()]]}, [0]);
+    },200);
   });
