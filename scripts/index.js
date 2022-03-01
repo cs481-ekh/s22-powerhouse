@@ -6,8 +6,8 @@ if (typeof window === 'undefined') {
     module.exports = sum;
 }
 
-//Converts give celcius temperature to Kelvin
-function converToKelvin(celcius) {
+//Converts given celcius temperature to Kelvin
+function convertToKelvin(celcius) {
     let ret = celcius + 273.15;
     return ret;
 }
@@ -30,7 +30,7 @@ function calcVoltage() {
     let chloride1 = parseInt(document.getElementById("concentrationTextbox5").value);
     let chloride2 = parseInt(document.getElementById("concentrationTextbox6").value);
     let temp = parseInt(document.getElementById("temperatureTextbox").value);
-    let kelvinTemp = converToKelvin(temp);
+    let kelvinTemp = convertToKelvin(temp);
 
     //Calculates value using our Goldman equation
     let numerator = ((potasPerm * potassium2) + (sodiumPerm * sodium2) + (chloridePerm * chloride1));
