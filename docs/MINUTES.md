@@ -1,5 +1,20 @@
 # Minutes
 
+## 3/2/2022 10:30am - 11:00am
+### Sprint 2 Planning - Week 8
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Discussed Sprint 1 Retrospective
+- Created project 2 board with stories and tasks
+- Talked about using boostrap to properly style our webpage
+##### Sprint 2 Goal
+- By the end of the sprint we will have the graph fully functional and have Dr. 
+Fologea's approval on basic functionality.
+##### Action Items
+- Jost: Stylize graph
+- Dawson: Incorporate bootstrap to style webpage 
+- Taylor: Finish functionality of graph
+
 ## 2/23/2022 10:30am - 11:00am
 ### Sprint 1 Check-in - Week 7
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
