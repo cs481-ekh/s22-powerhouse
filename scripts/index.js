@@ -58,7 +58,7 @@ $(document).ready(function(){
             range: "min",
             value: 5000,
             step: 1,
-            min: 0,
+            min: 1,
             max: 10000,
             slide: function(event, ui) {
                 $("#permeabilityTextbox" + i).val(ui.value);
@@ -76,7 +76,7 @@ $(document).ready(function(){
             range: "min",
             value: 100,
             step: 1,
-            min: 0,
+            min: 1,
             max: 200,
             slide: function(event, ui) {
                 $("#concentrationTextbox" + i).val(ui.value);
@@ -101,8 +101,11 @@ $(document).ready(function(){
         }
     });
     // create plot
-    Plotly.newPlot('chart', [{ y: [calcVoltage()],}],{xaxis:{range: [0, 30]}});
-
+    var layout = {
+        xaxis: {range: [0, 30], autorange: true, ticks: '', showticklabels: false},
+        yaxis: {title: 'Voltage (mV)', autoscale: true}
+      };
+    var plot = Plotly.newPlot('chart', [{ y: [calcVoltage()],}],layout);
     var i = 0;
 
     setInterval(function() {
