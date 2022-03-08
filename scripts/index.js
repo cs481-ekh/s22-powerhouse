@@ -101,12 +101,24 @@ $(document).ready(function(){
         }
     });
     // create plot
-    Plotly.newPlot('chart', [{
-        y:[calcVoltage()],
-        type:'line'
-    }]);
-    
-    setInterval(function(){
-        Plotly.extendTraces('chart',{y:[[calcVoltage()]]}, [0]);
-    },200);
-  });
+    Plotly.newPlot('chart', [{ y: [calcVoltage()],}],{xaxis:{range: [0, 30]}});
+
+    var i = 0;
+
+    setInterval(function() {
+        i++;
+        if(i > 30) {
+            Plotly.relayout('chart',{'xaxis.range': [i - 30, i]})
+        }
+        Plotly.extendTraces('chart', {y: [[calcVoltage()]]}, [0])}, 200);
+});
+
+//   // create plot
+//   Plotly.newPlot('chart', [{
+//     y:[calcVoltage()],
+//     type:"line"
+// }]);
+
+// setInterval(function(){
+//     Plotly.extendTraces('chart',{y:[[calcVoltage()]]}, [0]);
+// },200);
