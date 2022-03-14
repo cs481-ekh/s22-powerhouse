@@ -48,12 +48,12 @@ p {
 #concentrationSlider4 .ui-slider-range { background: purple; }
 #concentrationSlider4 .ui-slider-handle { border-color: black; background: purple; }
 
-#permeabilitySlider3 .ui-slider-range { background: yellow; }
-#permeabilitySlider3 .ui-slider-handle { border-color: black; background: yellow; }
-#concentrationSlider5 .ui-slider-range { background: yellow; }
-#concentrationSlider5 .ui-slider-handle { border-color: black; background: yellow; }
-#concentrationSlider6 .ui-slider-range { background: yellow; }
-#concentrationSlider6 .ui-slider-handle { border-color: black; background: yellow; }
+#permeabilitySlider3 .ui-slider-range { background: gold; }
+#permeabilitySlider3 .ui-slider-handle { border-color: black; background: gold; }
+#concentrationSlider5 .ui-slider-range { background: gold; }
+#concentrationSlider5 .ui-slider-handle { border-color: black; background: gold; }
+#concentrationSlider6 .ui-slider-range { background: gold; }
+#concentrationSlider6 .ui-slider-handle { border-color: black; background: gold; }
 
 #temperatureSlider .ui-slider-range { background: red;}
 #temperatureSlider .ui-slider-handle { border-color: black; background: red; }
