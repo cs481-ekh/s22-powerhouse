@@ -136,7 +136,7 @@ $(document).ready(function(){
         value: 100,
         step: 1,
         min: 0,
-        max: 200,
+        max: 50,
         slide: function(event, ui) {
             $("#temperatureTextbox").val(ui.value);
         }
