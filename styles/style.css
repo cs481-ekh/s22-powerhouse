@@ -34,7 +34,6 @@ p {
     background-color: rgba(255, 0, 0, .5);    
 }
 
-
 #permeabilitySlider1 .ui-slider-range { background: green; }
 #permeabilitySlider1 .ui-slider-handle { border-color: black; background: green; }
 #concentrationSlider1 .ui-slider-range { background: green; }
