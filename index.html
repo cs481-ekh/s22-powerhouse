@@ -16,7 +16,7 @@
   <body>
 
       <h1 style="text-align:center">GHK Equation Simulation</h1>
-      <h2 style="text-align:center">Output: <span id="output" style="font-size: larger; color: blue;"></span><span> mV</span></h2>
+      <!-- <h2 style="text-align:center">Output: <span id="output" style="font-size: larger; color: blue;"></span><span> mV</span></h2> -->
 
     <div id="chart" style="text-align:center"></div>
 
@@ -90,14 +90,15 @@
           </form>
         </div>
       </td>
-      <td style="width:10%"> 
+      <td style="width:10%;"> 
+        <h2 style="height: fit-content; margin: 0%; text-align:center; border:5px solid blue">Output: <span id="output" style="font-size: larger; color: blue;"></span><span> mV</span></h2>
         <!-- Temperature Input Section -->
-        <div text-align:class="temperature-panel" style="border: 5px solid red;">
+        <div text-align:class="temperature-panel" style="border: 5px solid red; height: fit-content;">
           <h3 class="temperature-header">Temperature</h3>
           <table style="margin-left:25%">
             <tr>
               <td>
-                <section style="height:250px;" id="temperatureSlider"></section>
+                <section style="height:225px;" id="temperatureSlider"></section>
               </td>
               <td>
                 <form action ="">
