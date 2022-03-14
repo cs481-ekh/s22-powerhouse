@@ -6,8 +6,8 @@ if (typeof window === 'undefined') {
     module.exports = sum;
 }
 
-//Converts give celcius temperature to Kelvin
-function converToKelvin(celcius) {
+//Converts given celcius temperature to Kelvin
+function convertToKelvin(celcius) {
     let ret = celcius + 273.15;
     return ret;
 }
@@ -21,16 +21,57 @@ function calcVoltage() {
 
     //Assigns values for variables from html form
     let potasPerm = parseInt(document.getElementById("permeabilityTextbox1").value);
+    if(potasPerm > 10000){
+        potasPerm = 10000;
+        document.getElementById("permeabilityTextbox1").value = 10000;
+    }
     let potassium1 = parseInt(document.getElementById("concentrationTextbox1").value);
+    if(potassium1 > 200){
+        potassium1 = 200;
+        document.getElementById("concentrationTextbox1").value = 200;
+    }
     let potassium2 = parseInt(document.getElementById("concentrationTextbox2").value);
+    if(potassium2 > 200){
+        potassium2 = 200;
+        document.getElementById("concentrationTextbox2").value = 200;
+    }
     let sodiumPerm = parseInt(document.getElementById("permeabilityTextbox2").value);
+    if(sodiumPerm > 10000){
+        sodiumPerm = 10000;
+        document.getElementById("permeabilityTextbox2").value = 10000;
+    }
     let sodium1 = parseInt(document.getElementById("concentrationTextbox3").value);
+    if(sodium1 > 200){
+        sodium1 = 200;
+        document.getElementById("concentrationTextbox3").value = 200;
+
+    }
     let sodium2 = parseInt(document.getElementById("concentrationTextbox4").value);
+    if(sodium2 > 200){
+        sodium2 = 200;
+        document.getElementById("concentrationTextbox4").value = 200;
+
+    }
     let chloridePerm = parseInt(document.getElementById("permeabilityTextbox3").value);
+    if(chloridePerm > 10000){
+        chloridePerm = 10000;
+        document.getElementById("permeabilityTextbox3").value = 10000;
+
+    }
     let chloride1 = parseInt(document.getElementById("concentrationTextbox5").value);
+    if(chloride1 > 200){
+        chloride1 = 200;
+        document.getElementById("concentrationTextbox5").value = 200;
+
+    }
     let chloride2 = parseInt(document.getElementById("concentrationTextbox6").value);
+    if(chloride2 > 200){
+        chloride2 = 200;
+        document.getElementById("concentrationTextbox6").value = 200;
+    }
     let temp = parseInt(document.getElementById("temperatureTextbox").value);
-    let kelvinTemp = converToKelvin(temp);
+
+    let kelvinTemp = convertToKelvin(temp);
 
     //Calculates value using our Goldman equation
     let numerator = ((potasPerm * potassium2) + (sodiumPerm * sodium2) + (chloridePerm * chloride1));
@@ -116,12 +157,3 @@ $(document).ready(function(){
         Plotly.extendTraces('chart', {y: [[calcVoltage()]]}, [0])}, 200);
 });
 
-//   // create plot
-//   Plotly.newPlot('chart', [{
-//     y:[calcVoltage()],
-//     type:"line"
-// }]);
-
-// setInterval(function(){
-//     Plotly.extendTraces('chart',{y:[[calcVoltage()]]}, [0]);
-// },200);

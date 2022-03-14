@@ -1,5 +1,35 @@
 # Minutes
 
+
+## 3/8/2022 2:30pm - 3:00pm
+### Meeting with Dr Fologea - Week 9
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Demonstrated the current functionality of our program to Dr. Fologea
+- Inquired about what changes he would like us to make and what needs to
+  be implemented in terms of functionality
+- Met after as a group to discuss next steps regarding what was talked about 
+  in the meeting
+##### Action Items
+- Jost: Stylize graph
+- Dawson: Incorporate bootstrap to style webpage 
+- Taylor: Finish functionality of graph
+
+## 3/2/2022 10:30am - 11:00am
+### Sprint 2 Planning - Week 8
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Discussed Sprint 1 Retrospective
+- Created project 2 board with stories and tasks
+- Talked about using boostrap to properly style our webpage
+##### Sprint 2 Goal
+- By the end of the sprint we will have the graph fully functional and have Dr. 
+Fologea's approval on basic functionality.
+##### Action Items
+- Jost: Stylize graph
+- Dawson: Incorporate bootstrap to style webpage 
+- Taylor: Finish functionality of graph
+
 ## 2/23/2022 10:30am - 11:00am
 ### Sprint 1 Check-in - Week 7
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff

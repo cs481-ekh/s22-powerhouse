@@ -1,32 +1,15 @@
 [![CI](https://github.com/cs481-ekh/s22-powerhouse/actions/workflows/ci.yml/badge.svg)](https://github.com/cs481-ekh/s22-powerhouse/actions/workflows/ci.yml)
 ## GHK Simulator
-BSU CS481 Capstone project
+BSU CS481 Capstone Project
 
-# For dev work: 
-NodeJS will need to be installed to run and install the testing and linter.
+### Project Background and Information
 
-The following instructions will get it set up for you. If you have any questions,
-ask Jost / YeOldeGent: 
+### Application Overview
 
-1. Download the latest version of NodeJS: 
-https://nodejs.org/en/download/
-
-2. Install with all dependencies. 
-
-3. In VSCode, switch your terminal to bash from powershell. (while this may
-not be absolutely neccesary, it will be simplest) 
-
-4. In the terminal, run: 
-```
-./build.sh
-```
-Currently if nothing pops up, then you are good to go. If an error occurs,
-then it must be fixed to finish the lint. 
-
-5. To test your code with the unit tests, 
-```
-./test.sh
-```
+### How to Run
+To run the application you can do one of the following:
+- Navigate to https://cs481-ekh.github.io/s22-powerhouse/ to run it through the internet.
+- Navigate to https://github.com/cs481-ekh/s22-powerhouse, click the big green Code button, and click Download ZIP. Then unzip the file and double click the index.html file in the folder. After the initial download this is to be able to run the program locally without an internet connection.
 
 
 
