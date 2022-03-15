@@ -99,7 +99,7 @@ $(document).ready(function(){
             range: "min",
             value: 5000,
             step: 1,
-            min: 1,
+            min: 0,
             max: 10000,
             slide: function(event, ui) {
                 $("#permeabilityTextbox" + i).val(ui.value);
@@ -117,7 +117,7 @@ $(document).ready(function(){
             range: "min",
             value: 100,
             step: 1,
-            min: 1,
+            min: 0,
             max: 200,
             slide: function(event, ui) {
                 $("#concentrationTextbox" + i).val(ui.value);
@@ -133,26 +133,26 @@ $(document).ready(function(){
     $("#temperatureSlider").slider({
         orientation: "vertical",
         range: "min",
-        value: 100,
+        value: 25,
         step: 1,
         min: 0,
-        max: 200,
+        max: 50,
         slide: function(event, ui) {
             $("#temperatureTextbox").val(ui.value);
         }
     });
     // create plot
     var layout = {
-        xaxis: {range: [0, 30], autorange: true, ticks: '', showticklabels: false},
-        yaxis: {title: 'Voltage (mV)', autoscale: true}
+        xaxis: {range: [0, 200], autorange: true, ticks: '', showticklabels: false},
+        yaxis: {title: 'Voltage (mV)', range: [-100,100]}
       };
     var plot = Plotly.newPlot('chart', [{ y: [calcVoltage()],}],layout);
     var i = 0;
 
     setInterval(function() {
         i++;
-        if(i > 30) {
-            Plotly.relayout('chart',{'xaxis.range': [i - 30, i]})
+        if(i > 200) {
+            Plotly.relayout('chart',{'xaxis.range': [i - 200, i]})
         }
         Plotly.extendTraces('chart', {y: [[calcVoltage()]]}, [0])}, 200);
 });
