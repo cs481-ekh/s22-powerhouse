@@ -1,5 +1,18 @@
 # Minutes
 
+## 3/16/2022 10:30am - 11:00am
+### Sprint 3 Planning & Sprint 2 Retrospective- Week 10
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Discussed how we will finalize project and created tasks for completion. 
+- We discussed that the project should be completed by Wednesday of Spring Break. 
+- After that the search engine project will be divided and worked on. 
+- We had Sprint 2 Retrospective and decided to create and assign tasks better for the end. 
+##### Action Items
+- Jost: UI Fixes
+- Dawson: Styling 
+- Taylor: Distribution and Logo
+
 
 ## 3/8/2022 2:30pm - 3:00pm
 ### Meeting with Dr Fologea - Week 9
