@@ -143,8 +143,8 @@ $(document).ready(function(){
     });
     // create plot
     var layout = {
-        xaxis: {range: [0, 200], autorange: true, ticks: '', showticklabels: false},
-        yaxis: {title: 'Voltage (mV)', range: [-100,100]}
+        xaxis: {range: [0, 1000], ticks: '', showticklabels: false},
+        yaxis: {title: 'Voltage (mV)', autoscale:true}
 
       };
     var plot = Plotly.newPlot('chart', [{ y: [calcVoltage()],}],layout);
@@ -152,9 +152,9 @@ $(document).ready(function(){
 
     setInterval(function() {
         i++;
-        if(i > 200) {
-            Plotly.relayout('chart',{'xaxis.range': [i - 200, i]})
+        if(i > 1000) {
+            Plotly.relayout('chart',{'xaxis.range': [i - 1000, i]})
         }
-        Plotly.extendTraces('chart', {y: [[calcVoltage()]]}, [0])}, 200);
+        Plotly.extendTraces('chart', {y: [[calcVoltage()]]}, [0])}, 100);
 });
 
