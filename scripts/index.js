@@ -88,6 +88,11 @@ function calcVoltage() {
 
 // Only run when document is ready and all values are loaded
 $(document).ready(function(){
+
+    //sets the height of the temp/output to the rest
+    // $(".temperature-panel").css("height", ($(".chloride-panel").height())*.8);
+    // $(".output").css("height", ($(".chloride-panel").height())*.42);
+
     // links permeability inputs
     for (let i = 1; i <= 3; i++) {
         $("#permeabilityTextbox" + i).change(function () {
