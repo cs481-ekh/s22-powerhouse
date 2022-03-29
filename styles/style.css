@@ -57,3 +57,36 @@ p {
 
 #temperatureSlider .ui-slider-range { background: red;}
 #temperatureSlider .ui-slider-handle { border-color: black; background: red; }
+
+#sdp {
+    position: relative;
+}
+#sdp img {
+    width: 15%;
+    cursor: pointer;
+    display: block;
+}
+
+#sdp > div {
+    background-color: #0033A0;
+    color: white;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    visibility: hidden;
+    position: relative;
+}
+
+#sdp a {
+    text-decoration: none;
+    color: #D64309;
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
