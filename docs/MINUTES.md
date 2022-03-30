@@ -1,5 +1,19 @@
 # Minutes
 
+## 3/30/2022 10:30am - 11:30am
+### Sprint 3 Carrot Project Planning- Week 12
+#### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
+##### Notes
+- Discussed the close of the GHK project and made sure to agree that the final product was sufficient. 
+- Went over Carrot repo together to understand the tasks and stories needed to complete it. 
+- Discussed that the News, Images, and Video results would be good to try and tackle for this sprint in our own branches. 
+- Stories and tasks were created for these issues. 
+##### Action Items
+- Jost: Images
+- Dawson: Video 
+- Taylor: News
+
+
 ## 3/16/2022 10:30am - 11:00am
 ### Sprint 3 Planning & Sprint 2 Retrospective- Week 10
 #### Attendees: Taylor Brooks, Jost Leavell, & Dawson Biersdorff
