@@ -1,6 +1,11 @@
 ## GHK Simulator
 BSU CS481 Capstone Project
 
+## Members
+- Taylor Brooks
+- Jost Leavell
+- Dawson Biersdorff
+
 ### Abstract
 Our project is an easily accessible web application which provides a graphical interface for visual analysis of transmembrane voltage as calculated by the Goldman-Hodgkin Katz equation. The interface provides users with four input boxes for the ion concentrations and permeabilities for Potassium, Sodium, Chloride as well as the Temperature. Each of these boxes has a slider and a text box which allows the user to change the value of the variables. There is also one output box which displays the transmembrane voltage calculated by the Goldman-Hodgkin Katz equation utilizing the user inputted variables. 
 
