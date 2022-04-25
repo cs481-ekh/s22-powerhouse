@@ -14,7 +14,8 @@ The main feature of this application is the graph which gives the user a visual 
 Our goal for this project was to create an easy to use and easily accessible application for students, faculty or anyone else to have an interactive graphical experience working with the Goldman-Hodgkin Katz equation.
 
 ## Project Description
-Our project is solely a front end web application with no back end involved. It utilizes basic html forms to receive the user input through text boxes and sliders. These values are then put into a javascript function that replicates the Goldman-Hodgkin Katz equation and calculates the voltage to be given to the user. 
+Our project is solely a front end web application with no back end involved. It utilizes basic html forms to receive the user input through text boxes and sliders. These values are then put into a javascript function that replicates the Goldman-Hodgkin Katz equation and calculates the voltage to be given to the user. A screenshot of the application is shown below.
+![GHK Simulation Image](./images/GHK.PNG)
 
 
 
